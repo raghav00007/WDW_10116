@@ -1,9 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Class Timetable</title>
+    
+<title>Weekly Timetable</title>
+
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 12px;
+            text-align: center;
+        }
+    </style>
+
 </head>
 <body>
+
+    <h1>Weekly Class Timetable</h1>
+
+    <table>
+
+        <tr>
+            <th>Day</th>
+            <th>9-10 AM</th>
+            <th>10-11 AM</th>
+            <th>11-12 PM</th>
+        </tr>
+
+        <tr>
+            <th>Monday</th>
+            <td>Maths</td>
+            <td rowspan="2">Break</td>
+            <td>Physics</td>
+        </tr>
+
+        <tr>
+            <th>Tuesday</th>
+            <td>English</td>
+            <td>Computer</td>
+        </tr>
+
+        <tr>
+            <th>Wednesday</th>
+            <td colspan="2">Workshop</td>
+            <td>Seminar</td>
+        </tr>
+
+    </table>
 
 </body>
 </html>
