@@ -1,9 +1,79 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Nested Tables</title>
+    <title>Nested and Responsive Tables</title>
+
+    <style>
+
+        .wrapper {
+            overflow-x: auto;
+        }
+
+        table {
+            border-collapse: collapse;
+            min-width: 600px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+    </style>
+
 </head>
 <body>
+
+    <h1>Lab Information</h1>
+
+    <div class="wrapper">
+
+        <table>
+
+            <tr>
+                <th>Day</th>
+                <th>Lab Details</th>
+                <th>Faculty</th>
+                <th>Room</th>
+            </tr>
+
+            <tr>
+
+                <td>Friday</td>
+
+                <td>
+
+                    <table>
+
+                        <tr>
+                            <th>Batch</th>
+                            <th>System</th>
+                        </tr>
+
+                        <tr>
+                            <td>A1</td>
+                            <td>PC 1-10</td>
+                        </tr>
+
+                        <tr>
+                            <td>A2</td>
+                            <td>PC 11-20</td>
+                        </tr>
+
+                    </table>
+
+                </td>
+
+                <td>Mr. Sharma</td>
+
+                <td>Lab 2</td>
+
+            </tr>
+
+        </table>
+
+    </div>
+
 
 </body>
 </html>
