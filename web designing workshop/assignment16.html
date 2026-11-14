@@ -4,6 +4,49 @@
     <title>Course Feedback</title>
 </head>
 <body>
+<h1>Course Feedback Form</h1>
 
+    <form>
+
+        <label for="course">Select Course:</label>
+
+        <select id="course" name="course">
+
+            <option value="cse">CSE</option>
+
+            <option value="ece">ECE</option>
+
+            <option value="aiml">AIML</option>
+
+        </select>
+
+        <br><br>
+
+        <label for="feedback">Your Feedback:</label>
+
+        <br>
+
+        <textarea id="feedback"
+                  name="feedback"
+                  rows="5"
+                  cols="30">
+        </textarea>
+
+        <br><br>
+
+        <button type="submit">
+            Submit
+        </button>
+
+        <button type="reset">
+            Reset
+        </button>
+
+        <button type="button"
+                onclick="alert('Hello!')">
+            Click Me
+        </button>
+
+    </form>
 </body>
 </html>
